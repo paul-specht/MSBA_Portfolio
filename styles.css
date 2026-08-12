@@ -156,6 +156,17 @@ a {
   margin-bottom: 14px;
 }
 
+.hero-photo {
+     width: 160px;
+     height: 160px;
+     object-fit: cover;
+     border-radius: 50%;
+     border: 3px solid var(--color-gold);
+     margin: 0 auto 20px;
+     display: block;
+     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.15);
+}
+
 .hero-tagline {
   color: var(--color-gray);
   font-size: 1.15rem;
